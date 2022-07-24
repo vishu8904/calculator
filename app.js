@@ -5,7 +5,7 @@ async function getResult(element) {
     let buttonId = element.id;
     
     // const server = "https://localhost:8080/v1/"
-    const server = "https://my-calculator-service.herokuapp.com/v1";
+    const server = "https://my-calculator-service.herokuapp.com/v1/";
     const urlParams = "?num1="+num1+"&num2="+num2;
     let url;
     switch (buttonId) {
