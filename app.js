@@ -4,7 +4,8 @@ async function getResult(element) {
     let num2 = document.getElementById("num2").value;
     let buttonId = element.id;
     
-    const server = "https://localhost:8099/v1/"
+    // const server = "https://localhost:8080/v1/"
+    const server = "https://[2405:201:d019:4019:8128:cdc4:e149:ef24]:8099/v1/";
     const urlParams = "?num1="+num1+"&num2="+num2;
     let url;
     switch (buttonId) {
